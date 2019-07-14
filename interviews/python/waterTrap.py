@@ -1,6 +1,6 @@
 def waterTrap(towerList):
   size = len(towerList)
-  
+
   left = [0 for x in range(size)]
   right = [0 for x in range(size)]
 

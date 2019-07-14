@@ -63,7 +63,7 @@ def reverseList(original_list):
   iterator = original_list.head
   while (iterator is not None):
     reversed.push(iterator.data)
-    iterator = iterator.next 
+    iterator = iterator.next
   return reversed
 
 
