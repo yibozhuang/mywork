@@ -15,7 +15,7 @@ class LinkedList:
   def printList(self):
     temp = self.head
     while(temp):
-      print temp.data
+      print(temp.data)
       temp = temp.next
 
   def addTwoLists(self, first, second):
@@ -73,12 +73,12 @@ testReverse.push(6)
 testReverse.push(9)
 testReverse.push(3)
 
-print "Before:"
+print("Before:")
 testReverse.printList()
 
 reversed = reverseList(testReverse)
 
-print "After:"
+print("After:")
 reversed.printList()
 
 
@@ -91,7 +91,7 @@ first.push(5)
 first.push(2)
 first.push(2)
 
-print "First list:"
+print("First list:")
 first.printList()
 
 second.push(0)
@@ -99,7 +99,7 @@ second.push(9)
 second.push(1)
 second.push(0)
 
-print "Second List:"
+print("Second List:")
 second.printList()
 
 firstReverse = reverseList(first)
@@ -110,7 +110,5 @@ res = LinkedList()
 res.addTwoLists(first.head, second.head)
 resReverse = reverseList(res)
 
-print "Result:"
+print("Result:")
 resReverse.printList()
-
-
