@@ -23,7 +23,8 @@ def is_valid_path(board, s0, s1, sub_word):
     x0 = s0 + 1
     x1 = s1
 
-    if x0 < len(board) and board[x0][x1] == c and is_valid_path(board, x0, x1, sub_word[1:]):                return True
+    if x0 < len(board) and board[x0][x1] == c and is_valid_path(board, x0, x1, sub_word[1:]):
+        return True
 
     x0 = s0
     x1 = s1 + 1
